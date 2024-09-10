@@ -7,10 +7,10 @@ import Fr from "./assets/components/Fr";
 import En from "./assets/components/En";
 
 const App = () => {
-  // const url = "https://github.com/MaelleVo";
   return (
     <Router>
       <Header />
+      <Fr />
       <Routes>
         <Route path="/en" element={<En />}></Route>
         <Route path="/fr" element={<Fr />}></Route>
