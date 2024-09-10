@@ -10,10 +10,9 @@ const App = () => {
   return (
     <Router>
       <Header />
-      <Fr />
       <Routes>
-        <Route path="/en" element={<En />}></Route>
         <Route path="/fr" element={<Fr />}></Route>
+        <Route path="/en" element={<En />}></Route>
       </Routes>
       <Footer />
     </Router>
