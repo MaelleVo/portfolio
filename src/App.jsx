@@ -11,6 +11,7 @@ const App = () => {
     <Router>
       <Header />
       <Routes>
+        <Route path="/" element={<Fr />}></Route>
         <Route path="/fr" element={<Fr />}></Route>
         <Route path="/en" element={<En />}></Route>
       </Routes>
