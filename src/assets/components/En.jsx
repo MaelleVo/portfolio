@@ -7,6 +7,7 @@ import deliveroo from "/src/img/deliveroo.png";
 import vinted from "/src/img/vinted.png";
 import www from "/src/img/www.svg";
 import githubblack from "/src/img/githubblack.svg";
+import gamehub from "/src/img/game-hub.png";
 
 const En = () => {
   return (
@@ -62,10 +63,35 @@ const En = () => {
             <article>
               <div className="picture">
                 <div className="gradient"></div>
+                <img alt="gamehub" src={gamehub}></img>
+              </div>
+
+              <h4>Game Hub App</h4>
+              <p>
+                This web application allows users to search for video games
+                based on different criteria such as genre, rating, and release
+                date. It aims to provide an intuitive and responsive interface
+                where users can easily filter and explore. The app is built
+                using TypeScript and Chakra UI for responsive and accessible
+                design. It features a dark/light mode switch to enhance the user
+                experience.
+              </p>
+              <div className="link">
+                <a href="https://game-app-cyan.vercel.app/" target="_blank">
+                  <img alt="www" src={www}></img>
+                </a>
+                <a href="https://github.com/MaelleVo/game-hub" target="_blank">
+                  <img alt="www" src={githubblack}></img>
+                </a>
+              </div>
+            </article>
+            <article>
+              <div className="picture">
+                <div className="gradient"></div>
                 <img alt="vinted" src={vinted}></img>
               </div>
 
-              <h4>Website Vinted</h4>
+              <h4>Vinted Website</h4>
               <p>
                 Reproduction of the Vinted website in full-stack. All products
                 are sourced from a database. Users can register, log in, and log

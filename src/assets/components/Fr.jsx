@@ -7,6 +7,7 @@ import deliveroo from "/src/img/deliveroo.png";
 import vinted from "/src/img/vinted.png";
 import www from "/src/img/www.svg";
 import githubblack from "/src/img/githubblack.svg";
+import gamehub from "/src/img/game-hub.png";
 
 const Fr = () => {
   return (
@@ -59,6 +60,34 @@ const Fr = () => {
                 </a>
               </div>
             </article>
+
+            <article>
+              <div className="picture">
+                <div className="gradient"></div>
+                <img alt="gamehub" src={gamehub}></img>
+              </div>
+
+              <h4>App Portail Jeux Vidéos</h4>
+              <p>
+                Cette application web permet aux utilisateurs de rechercher des
+                jeux vidéo selon le genre, la note et la date de sortie. Elle
+                vise à offrir une interface intuitive et responsive où les
+                utilisateurs peuvent facilement filtrer et explorer.
+                L'application est construite avec TypeScript et Chakra UI pour
+                un design accessible et réactif. Elle dispose également d'un
+                switch mode sombre/clair pour améliorer l'expérience
+                utilisateur.
+              </p>
+              <div className="link">
+                <a href="https://game-app-cyan.vercel.app/" target="_blank">
+                  <img alt="www" src={www}></img>
+                </a>
+                <a href="https://github.com/MaelleVo/game-hub" target="_blank">
+                  <img alt="www" src={githubblack}></img>
+                </a>
+              </div>
+            </article>
+
             <article>
               <div className="picture">
                 <div className="gradient"></div>
